@@ -1,0 +1,18 @@
+Merging Method,Baseline,Qwen3-0.6B,Qwen3-1.7B,Qwen3-4B,Llama-3.2-1B
+Base,gradient descent,60.77,65.02,70.05,53.11
+TA,naive baseline,60.13,64.58,75.49,74.87
+,coefficient search,63.62,73.65,79.99,76.22
+,subspace upper bound,70.20,80.51,81.13,77.19
+,gradient descent,69.94,81.48,83.91,77.02
+TIES,naive baseline,49.98,57.93,68.26,57.84
+,coefficient search,50.09,57.93,67.87,58.22
+,subspace upper bound,54.09,63.78,68.38,57.67
+,gradient descent,69.67,77.01,82.02,72.30
+DARE,naive baseline,60.46,65.64,74.70,75.15
+,coefficient search,63.88,72.30,79.86,77.07
+,subspace upper bound,68.58,77.41,80.04,77.52
+,gradient descent,70.42,81.03,84.16,73.27
+TSVM,naive baseline,68.32,77.89,81.26,70.36
+,coefficient search,69.43,78.37,79.85,79.77
+,subspace upper bound,69.71,78.67,79.74,80.48
+,gradient descent,77.78,81.85,87.23,79.89

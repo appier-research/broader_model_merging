@@ -1,0 +1,18 @@
+Merging Method,Baseline,ViT-B-32,ViT-B-16,ViT-L-14
+Base,gradient descent,78.54,82.51,84.98
+TA,naive baseline,62.87,67.57,74.61
+,coefficient search,62.41,68.06,76.68
+,subspace upper bound,65.10,70.24,79.58
+,gradient descent,80.53,83.77,85.85
+TIES,naive baseline,62.25,69.52,76.27
+,coefficient search,67.35,72.45,77.72
+,subspace upper bound,67.35,72.49,77.78
+,gradient descent,82.06,85.28,87.27
+DARE,naive baseline,62.73,67.63,74.61
+,coefficient search,62.38,67.94,76.71
+,subspace upper bound,64.55,68.97,79.27
+,gradient descent,80.52,83.72,84.48
+TSVM,naive baseline,74.79,80.38,87.29
+,coefficient search,78.05,81.91,87.53
+,subspace upper bound,78.05,81.96,87.53
+,gradient descent,83.88,86.37,88.26

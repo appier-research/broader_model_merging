@@ -1,0 +1,10 @@
+*/data/*
+*/checkpoints/*
+**/results/
+*/__pycache__/*
+__pycache__/
+wandb/
+
+*.png
+*.log
+*.pdf

@@ -1,0 +1,17 @@
+matplotlib
+seaborn  # visualization/
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+transformers==4.57.6
+datasets==5.0.0
+scipy==1.17.1
+accelerate>=1.1.0
+tensorboardX==2.6.5
+wandb
+# llm-exp
+lighteval==0.13.0
+langdetect  # undeclared dependency of lighteval's ifeval language checker
+peft==0.20.0
+optuna==4.9.0  # bo_search (GPSampler; needs scipy + torch, both above)
+liger-kernel==0.8.2
